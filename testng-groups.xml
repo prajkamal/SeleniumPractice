@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression suite1">
+	<test name="GroupsDemo">
+		<groups>
+			<run>
+				<include name ="bike"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.dxcTesting.practiceSelenium.TestNGTestGrouping"></class>
+		</classes>
+	</test>
+</suite>

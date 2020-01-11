@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression suite">
+	<test name="Build1 Regression">
+		<classes>
+			<class name="com.dxcTesting.practiceSelenium.TestNGAnnotations1"></class>
+			<class name="com.dxcTesting.practiceSelenium.TestNGAnnotations2"></class>
+
+		</classes>
+	</test>
+		<test name="Build2 Regression">
+		<classes>
+			<class name="com.dxcTesting.practiceSelenium.TestNGAnnotations1"></class>
+			<class name="com.dxcTesting.practiceSelenium.TestNGAnnotations2"></class>
+
+		</classes>
+	</test>
+</suite>
